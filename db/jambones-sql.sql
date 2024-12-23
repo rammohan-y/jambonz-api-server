@@ -385,6 +385,7 @@ email_validated BOOLEAN NOT NULL DEFAULT false,
 phone_validated BOOLEAN NOT NULL DEFAULT false,
 email_content_opt_out BOOLEAN NOT NULL DEFAULT false,
 is_active BOOLEAN NOT NULL DEFAULT true,
+is_read_write BOOLEAN NOT NULL DEFAULT true,
 PRIMARY KEY (user_sid)
 );
 
