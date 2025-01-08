@@ -211,7 +211,7 @@ const sql = {
     'ALTER TABLE voip_carriers ADD COLUMN dtmf_type ENUM(\'rfc2833\',\'tones\',\'info\') NOT NULL DEFAULT \'rfc2833\'',
   ],
   9004: [
-    'ALTER TABLE users ADD COLUMN is_read_write BOOLEAN NOT NULL DEFAULT true'
+    'ALTER TABLE users ADD COLUMN is_read_only BOOLEAN NOT NULL DEFAULT false'
   ]
 };
 
